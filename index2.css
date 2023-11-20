@@ -1,0 +1,28 @@
+.support {
+  display: flex;
+  margin-bottom: 400px;
+}
+.block,
+li{
+    border: 2px solid blue;   
+    padding: 50px;
+    margin-top: 500px;
+}
+li img {
+  width: 300px;
+  height: 150px;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+.block {
+  display: block;
+}
+/* about us*/
+.layout_1{
+    font-weight: bold;
+    margin: 30px;
+    color: #0766AD;
+    font-size: 30px;
+  }

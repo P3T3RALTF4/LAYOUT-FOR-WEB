@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  height: 10rem;
+}
+.flex-row img {
+  width: 300px;
+  padding-left: 40px;
+  height: 200px;
+}
+.bold_styles{
+  font-weight: bold;
+}
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.heading_1 {
+  color: green;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.heading_2 {
+  color: brown;
+  font-weight: bold;
+  margin: 35px;
+}
+.important_1{
+  color: red  ;
+  font-weight: bold;
+  font-size: 30px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.normal {
+  font-weight:bold;
+  margin: 50px;
+}
+.middle {
+  display: flex;
+  justify-content: center;
+}
+
+div.content {
+  margin-left: 30px;
+  margin-top: 70px;
+  padding: 1px 16px;
+  height: 100%;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+.navbar ul ul li {
+  display: block;
+}
+
+.navbar li:hover ul {
+  display: block;
+}
+.navbar ul ul li a:hover {
+  background-color: #555;
+}
+.important_2 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 25px; 
+}
+.normal_2{
+  color: black;
+  font-weight: bold;
+}
+.main_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  font-size: 60px;
+  color: rgb(197, 94, 112);  
+}
