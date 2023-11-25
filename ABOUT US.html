@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="BAITAPVATLY.js"></script>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">VẬT LÝ 11</a>
@@ -25,9 +26,11 @@
                 <li>
                   <a href="#">MỤC LỤC</a>
                   <ul>
-                    <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1"><i>I</i></a></li>
-                     <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2"><i>II</i></a></li>
-                     <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3"><i>III</i></a></li>
+                    <li><a href="#phan1" onclick="TopFunction1()" id="MyBtn1"><i>BÀI 1(1)</i></a></li>
+                    <li><a href="#phan2" onclick="TopFunction2()" id="MyBtn2"><i>BÀI 1(2)</i></a></li>
+                    <li><a href="#phan3" onclick="TopFunction3()" id="MyBtn3"><i>BÀI 2</i></a></li>
+                    <li><a href="#phan4" onclick="TopFunction4()" id="MyBtn4"><i>BÀI 3</i></a></li>
+                    <li><a href="#phan5" onclick="TopFunction5()" id="MyBtn5"><i>BÀI 4</i></a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -49,26 +52,367 @@
 </head>
 <body>
     <div class="content">
-        <h1 class="heading_1">BÀI 1</h1>
-        <img src="images/TRANG2.jpg" style="width: 100%; height: 400px;">
+        <h1 class="heading_1">BÀI 1(1)</h1>
+        <h2 class="important_1">I. TRẮC NGHIỆM</h2>
+            <p class="important_2">BÀI 1: Một chất điểm dao động điều hòa với chu kì T = 1 s. Tần số góc ω của dao động là?</p>
+            <div class="flex-item">
+                  <p class="normal">A. π rad/s</p>
+                  <p class="normal">B. 2π rad/s</p>
+                  <p class="normal">C. 1 rad/s</p>
+                  <p class="normal">D. 2 rad/s</p>
+            </div>
+            <p class="important_2">BÀI 2: Một chất điểm dao động điều hòa có tần số góc ω = 10π rad/s. Tần số của dao động là?</p>
+            <div class="flex-item">
+                  <p class="normal">A. 5 Hz</p>
+                  <p class="normal">B. 10 Hz</p>
+                  <p class="normal">C. 20 Hz</p>
+                  <p class="normal">D. 5π Hz</p>
+            </div>  
+            <p class="important_2">BÀI 3: Một chất điểm dao động điều hòa trong thời gian 1 phút vật thực hiện được 30 dao động. Chu kì dao động của vật là?</p>
+            <div class="flex-item">
+                  <p class="normal">A. 2 s</p>
+                  <p class="normal">B. 30 s</p>
+                  <p class="normal">C. 0,5 s</p>
+                  <p class="normal">D. 1 s</p>
+            </div>
+            <p class="important_2">BÀI 4: Một con ong mật đang bay tại chỗ trong không trung đập cánh với tần số khoảng 300 Hz. Chu kì dao động của cánh ong là</p>
+            <div class="flex-item">
+                  <p class="normal">A. 300 s</p>
+                  <p class="normal">B. 3,33 ms</p>
+                  <p class="normal">C. 3 s</p>
+                  <p class="normal">D. 0,021 s</p>
+            </div>
+            <p class="important_2">BÀI 5: Pit-tông của một động cơ đốt trong dao động trên một đoạn thẳng dài 16 cm và làm cho truỷu của động cơ quay đều. Biên độ dao động của một điểm trêm mặt pít-tông bằng</p>
+            <div class="flex-item">
+                  <p class="normal">A. 16 cm</p>
+                  <p class="normal">B. 8 cm</p>
+                  <p class="normal">C. 4 cm</p>
+                  <p class="normal">D. 32 cm</p>
+            </div>
+                          <h2 class="heading_2" style="display: flex; justify-content: center;">HƯỚNG DẪN GIẢI</h2>
+                              <p class="important_1" style="font-size: 30px">Bài 1:</p>
+                                    <p>
+                                        - Ta có: ω = 2π/T <br>
+                                        => Tần số góc: ω = 2π/1 = 2π rad/s <br>
+                                        <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b>
+                                    </p>
+                              <p class="important_1">Bài 2:</p>
+                                    <p>
+                                          - Ta có: ω = 2π/T (mà T = 1/f) => ω = 2πf <br>
+                                        => Tần số của dao động: ω/2π = 10π/2π = 5 Hz <br>
+                                        <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b>
+                                    </p>
+                              <p class="important_1">BÀI 3:</p>
+                                    <p>
+                                          1 phút = 60 s <br>
+                                          Số dao động = 30 <br>
+                                          Ta có: T = n/t (30 dao động thực hiện trong 60s => Chu kì = 1 dao động) <br>
+                                          => T = 30 / 60 = 0,5 (s) <br>
+                                          <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: C</b>
+                                    </p>
+                              <p class="important_1">Bài 4:</p>
+                                    <p>
+                                          Chu kì của dao động: T = 1/f <br>
+                                          => T = 1/300 <br>
+                                          => T = 3,33 ms <br> 
+                                          <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b>
+                                    </p>
+                              <p class="important_1">Bài 5:</p>
+                                    <p>
+                                          Đoạn thẳng = Quỹ đạo chuyển động của vật <br>
+                                          => A = L/2 = 16/2 = 8 cm <br>
+                                          <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b>   
+                                    </p>      
+        <h2 class="important_1">II. TỰ LUẬN</h2>
+        <img src="images/TRANG5.png" style="width: 100%; height: 500px;">
+        <img src="images/TRANG6.png" style="width: 100% height: 300px;>
+        <p class="important_1">BÀI 5</p>
+        <p>
+          a) <br>
+          Qua biểu đồ hình 2.1 <br>
+          Ta có: Biên độ (A) = 0,2 cm, T = 0,4 s <br>
+          f = 1/T => f = 1/0,4 = 2,5 (Hz) <br>
+          b) <br>
+          Những vật có li độ (x = 0), qua đồ thị ta thấy có 3 thời điểm vật ở vị trí cân bằng đó là t = 0s; t = 0,2s; t = 0,4s <br>
+          c) <br>
+          Tần số góc (W) = 2πf = 2π*2,5 = 5π (rad/s)
+        </p>
+        <p class="important_1">BÀI 6</p>
+        <p>
+          Qua biểu đồ hình 1.1, ta thấy đồ thị li độ đạt điểm cao nhất tại 10 (cm) => Biên độ (A) = 10cm <br>
+          Chu kì là khoảng thời gian vật quay về trạng thái chuyển động => T = 120ms = 0,12s <br>
+          f = 1/T => f = 25/3 (Hz)
+        </p>
+        <p class="important_1">BÀI 9</p>
+        <p>
+           a) <br>
+           Ta có: quỹ đạo chuyển Động bằng 2 lần biên độ của vật => A = L/2 = 20/2 = 10cm <br>
+           Trong 180s vật thực hiện được 90 dao động => Chu kì = 90/180 = 0,5s <br>
+           Tần số: f = 1/T => f = 1/0,5 = 2Hz <br>
+           b) <br>
+           Biên độ: A = 8cm <br>
+           Chu kì: T = 0,5s <br>
+           Tại t = 0, x = -A => Pha ban đầu (φ<sub style="font-size:11px">0</sub> = π rad)
+           Ta có (t2 - t1) = 2s => delta t / T = 2 / 0,5 = 4 <br>
+           Tổng quãng đường vật di chuyển = 16A => S = 128 cm <br>
+           Vận tốc trung bình của vật là: v = S/t => v = 128/2 = 64 cm/s <br>
+        </p>
+        <h1 class="heading_1">BÀI 1(2)</h1>
+        <h2 class="important_1">I. TRẮC NGHIỆM</h2>
+          <p class="important_2">CÂU 1: Trong dao động điều hòa gia tốc biến đổi</p>
+              <div class="flex-item">
+                <p class="normal_3">A. Cùng pha với li độ</p>
+                <p class="normal_3">B. Ngược pha với li độ</p>
+                <p class="normal_3">C. Sớm pha π/2 so với li độ</p>
+                <p class="normal_3">D. Trễ pha π/2 so với li độ</p>
+              </div>
+          <p class="important_2">CÂU 2: Vecto vận tốc của một vật dao động điều hòa luôn</p>
+             <div class="flex-item">
+                 <p class="normal_3">A. Hướng ra xa vị trí cân bằng</p>
+                 <p class="normal_3">B. Cùng hướng với chuyển động</p>
+                 <p class="normal_3">C. Hướng về vị trí cân bằng</p>
+                 <p class="normal_3">D. Ngược hướng chuyển động</p>
+             </div>
+          <p class="important_2">CÂU 3: Trong dao động điều hòa thì nhóm đại lượng nào sau đây không thay đổi theo thời gian?</p>
+                <div class="flex-item">
+                     <p class="normal_3">A. Li độ và thời gian </p>
+                     <p class="normal_3">B. Biên độ và tần số góc </p>
+                     <p class="normal_3">C. Li độ và pha ban đầu </p>
+                     <p class="normal_3">D. Tần số và pha dao động </p>
+                </div>
+                <p class="important_2">CÂU 4: Một chất điểm dao động với phương trình x = 10cos(15t + π) (x tính bằng cm, t tính bằng s). Chất điểm này dao động với tần số góc</p>
+                <div class="flex-item">
+                  <p class="normal">A. 20 rad/s</p>
+                  <p class="normal">B. 10 rad/s</p>
+                  <p class="normal">C. 5 rad/s</p>
+                  <p class="normal">D. 15 rad/s</p>
+             </div>
+             <p class="important_2">CÂU 5: Một vật dao động điều hòa với phương trình x = -5cos(4πt) (cm). Biên độ và pha ban đầu của chất điểm là</p>
+             <div class="flex-item">
+              <p class="normal_3">A. 5 cm, 0 rad</p>
+              <p class="normal_3">B. 5 cm, 4π rad</p>
+              <p class="normal_3">C. 5 cm, 4π rad</p>
+              <p class="normal_3">D. 5 cm, π rad </p>
+         </div>
+         <h2 class="heading_2" style="display: flex; justify-content: center;">HƯỚNG DẪN GIẢI</h2>
+         <p class="important_2">CÂU 1:</p>
+         <p>
+                Ta có phương trình li độ: x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>) <br>
+                Mà phương trình gia tốc a = ω^2Acos(ωt + φ<sub style="font-size: 11px">0</sub> + π) <br>
+                Vậy pha dao động của 2 biến lệch nhau π rad => ngược pha <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b>
+         </p>
+         <p class="important_2">CÂU 2:</p>
+         <p>
+                <img src="images/1634289189085_Untitled_video_‐_Made_with_Clipchamp.gif" style="width: 500px; display: flex; justify-content: center;"> <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b>
+         </p>
+         <p class="important_2">CÂU 3:</p>
+         <p>
+                Ta có: x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>) <br>
+                Qua phương trình dao động của vật, biến không thay đổi luôn luôn là biên độ và tần số góc <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b>
+         </p>
+         <p class="important_2">CÂU 4:</p>
+         <p>
+                Ta có: x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>) <br>
+                Qua phương trình dao động  x = -5cos(4πt) <br>
+                => Pha ban đầu = 0 rad, biên độ: 5 cm <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b>
+         </p>
+         <p class="important_2">CÂU 5:</p>
+         <p>
+                Ta có: x = Acos(ωt + φ<sub style="font-size: 11px">0</sub>) <br>
+                Qua phương trình dao động  x = 10cos(15t + π) <br>
+                => ω = 15 rad/s <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: D</b>
+         </p>
+         <h2 class="important_1">II. TỰ LUẬN</h2>
+         <img src="images/TRANG12.PNG">
+         <p class="important_2">CÂU 43</p>
+         <p>
+             Qua sơ đồ hình elip ta thấy được vật đạt 2 vận tốc khác nhau tại 2 li độ khác nhau <br>
+             Tại x = 4 cm vật đạt vận tốc 60 cm/s (1)<br>
+             Tại x = 8 cm vật đạt vận tốc 30 cm/s (2)<br>
+              Ta có công thức A^2 = x^2 + (v^2/ω^2) <br>
+              Thế (1) và (2) vào phương trình: 8^2 + 30^2/ω^2 = 60^2/ω^2 + 4^2 <br>
+              => ω = 7,5 rad/s <br>
+              => A = 4*sqrt(5) cm <br>
+              => Vận tốc cực đại của vật: 7,5 * 4 sqrt(5) = 30 sqrt(5) cm/s
+         </p> 
+         <p class="important_2">CÂU 44</p>
+         <p>
+              Áp dụng công thức A^2 = x^2 + (v^2/ω^2) <br>
+              Tại vị trí cân bằng trong dao động, v^2 = 0,04 m^2/s^2 = 400 cm^2/s^2<br>
+              => 2^2 = 0 + 400/ω^2 <br>
+              => ω^2 = 100 <br>
+              => ω = 10 rad/2 (do ω luôn lớn hơn 0)
+         </p>
+         <h1 class="heading_1">BÀI 2</h1>
+         <h2 class="important_1">I. TRẮC NGHIỆM</h2>
+         <p class="important_2">CÂU 1: Con lắc lò xo gồm vật nhỏ khối lượng 100g gắn với một lò xo nhẹ. Con lắc dao động điều hòa theo phương ngang với phương trình x = 10cos(10πt)(cm)</p>
+         <div class="flex-item">
+            <p class="normal">A. 0,1 J</p>
+            <p class="normal">B. 0,05 J</p>
+            <p class="normal">C. 1 J</p>
+            <p class="normal">D. 0,5 J</p>
+        </div>
+              <p class="important_2">CÂU 2: Một vật nhỏ có khối lượng 100g dao động điều hòa với tần số góc 20 rad/s và biên độ 3 cm. Chọn mốc thế năng tại vị trí cân bằng. Cơ năng của vật là</p>
+              <div class="flex-item">
+                <p class="normal">A. 0,6 J</p>
+                <p class="normal">B. 18 mJ</p>
+                <p class="normal">C. 180 J</p>
+                <p class="normal">D. 36 mJ</p>
+            </div>
+          <p class="important_2">CÂU 3: Một vật dao động điều hòa, cứ sau một khoảng thời gian t = 2,5 s thì động năng lại thế năng. Tần số dao động của vật là</p>
+          <div class="flex-item">
+            <p class="normal">A. 0,1 Hz</p>
+            <p class="normal">B. 0,05 Hz</p>
+            <p class="normal">C. 5 Hz</p>
+            <p class="normal">D. 2 Hz</p>
+        </div>
         <h2 class="heading_2" style="display: flex; justify-content: center;">HƯỚNG DẪN GIẢI</h2>
-        <p class="important_1" style="font-size: 30px">Bài 10:</p>
-        <p>
-            - Ta có: φ = 2π/T <br>
-            => Tần số góc: φ = 2π/1 = 2π (rad/s)
-        </p>
-        <p class="important_1">Bài 11:</p>
-        <p>
-            - Ta có: φ = 2π/T (mà T = 1/f) => φ = 2πf <br>
-            => Tần số của dao động: φ/2π = 10π/2π = 5 (s)
-        </p>
-        <p class="important_1">BÀI 12:</p>
-        <p>
-            1 phút = 60 s <br>
-            Số dao động = 30 <br>
-            Ta có: T = n/t (30 dao động thực hiện trong 60s => Chu kì = 1 dao động) <br>
-            => T = 30 / 60 = 0,5 (s)
-        </p>
+        <p class="important_2">CÂU 1</p>
+         <p>
+                Ta có: 100g = 0,1 kg <br>
+                x = 10cos(10πt) => A = 10, ω = 10π rad/s <br>
+                Áp dụng công thức cơ năng của 1 vật: 1/2*m*ω^2*A^2 <br>
+                => Cơ năng của con lắc = 1/2*0,1*(10π)^2 * 10^2 = 0,5J <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: D</b>
+         </p>
+         <p class="important_2">CÂU 2</p>
+         <p>
+                Ta có: 100g = 0,1 kg, A = 3 cm = 0,03 m, ω 20 rad/s<br>
+                Áp dụng công thức cơ năng của 1 vật: 1/2*m*ω^2*A^2 <br>
+                => Cơ năng của con lắc = 1/2*0,1*(0,03)^2 * 3^2 = 180J <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: C</b>
+         </p>
+         <p class="important_2">CÂU 3</p>
+         <p>
+                Khoảng thời gian khi động năng bằng thế nằng bằng một phần tư chu kì của dao động => T = 2,5 x 4 = 10 s <br>
+                Tần số dao động là f = 1 / 10 = 0,1 Hz <br>
+                <b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b>
+         </p>
+         <h2 class="important_1">II. TỰ LUẬN</h2>
+         <img src="images/TRANG23.PNG" style="width: 800px">
+         <p>
+                Qua biểu đồ cơ năng, ta có thể thấy động năng và thế năng bằng nhau khi li độ của 2 nặng lượng lần lượt là -3 và 4 <br>
+                Ta có:<br> 
+                W<sub class="bruh">đ</sub> = 1/2mω^2(A^2 - x^2) = 1/2mω^2(A^2 - 9) (1)<br> 
+                W<sub class="bruh">t</sub> = 1/2mω^2x^2 = 1/2mω^2*16 (2)<br>
+                Từ (1) và (2) ta có: A^2 - 9 = 16 <br>
+                => A = 5 (do A luôn lớn hơn 0)
+         </p>
+         <img src="images/TRANG24.PNG" style="width: 800px">
+         <p>
+              a) <br>
+              Qua sơ đồ về động năng trong bài, ta thấy được mức năng lượng lớn nhất động năng đạt được là 80 mJ <br>
+              => W<sub class="bruh">đmax</sub> = W = 80 mJ = 0,08J <br>
+              b) <br>
+              Áp dụng công thức động năng của vật: W<sub class="bruh">đ</sub> = 1/2mv^2 <br>
+              => W<sub class="bruh">đmax</sub> = 1/2mv<sub class="bruh">max</sub>^2 <br>
+              => 0,08 = 1/2*0,4*v^2 => v^2 = 4 <br>
+              => |v| = 2 cm/s <br>
+              c) <br>
+              Thế năng: W<sub class="bruh">t</sub> = W - W<sub class="bruh">đ</sub><br>
+              Tần số góc của dao động: <br>
+              W<sub class="bruh">đmax</sub> = 1/2*0,4ω^2(16 - 0) (do vật đạt tốc độ cực đại tại vị trí cân bằng) <br>
+              => ω = sqrt(10)/20 rad/s<br>
+              Thế năng của con lắc tại li độ 2 cm: <br>
+              W<sub class="bruh">t</sub> = 1/2*0,4*1/40*4 = 0,02J
+         </p>
+         <h1 class="heading_1">BÀI 3</h1>
+         <h2 class="important_1">I. TRẮC NGHIỆM</h2>
+         <p class="important_2">CÂU 1: Dao động tắt dần</p>
+              <div class="flex-item">
+                <p class="normal_3">A. Có biên độ không đổi theo thời gian</p>
+                <p class="normal_3">B. Luôn có hại</p>
+                <p class="normal_3">C. Có biên độ giảm dần theo thời gian</p>
+                <p class="normal_3">D. Luôn có lợi</p>
+              </div>
+          <p class="important_2">CÂU 2: Nguyên nhân gây ra dao động tắt dần của con lắc đơn trong không khí là do</p>
+              <div class="flex-item">
+                <p class="normal_3">A. Trọng lực tác dụng lên vật</p>
+                <p class="normal_3">B. Lực căng dây treo</p>
+                <p class="normal_3">C. Lực cản môi trường</p>
+                <p class="normal_3">D. Dây treo có khối lượng đáng kể</p>
+              </div>
+            <p class="important_2">CÂU 3: Phát biểu nào sau đây là <b style="color: red">sai</b> khi nói về dao động tắt dần</p>
+                  <div class="flex-item">
+                    <p class="normal_3">A. Tần số của dao động càng lớn thì dao động tắt dần càng chậm</p>
+                    <p class="normal_3">B. Cơ năng của dao động giảm dần</p>
+                    <p class="normal_3">C. Biên độ của dao động giảm dần</p>
+                    <p class="normal_3">D. Lực cản càng lớn thì sự tắt dần càng nhanh</p>
+                  </div>
+              <p class="important_2">CÂU 4: Nhận xét nào sau đây là <b style="color:red">không</b> đúng?</p>
+                  <div class="flex-item">
+                    <p class="normal_3">A. Dao động tắt dần càng nhanh nếu lực cản của môi trường càng lớn</p>
+                    <p class="normal_3">B. Dao động duy trì có chu kỳ bằng chu kỳ dao động riêng của con lắc</p>
+                    <p class="normal_3">C. Dao động cưỡng bức có tần số bằng tần số của lực cưỡng bức</p>
+                    <p class="normal_3">D. Biên độ của dao động cưỡng bức không phụ thuộc vào tần số lực cưỡng bức</p>
+                  </div>
+              <h2 class="heading_2" style="display: flex; justify-content: center;">HƯỚNG DẪN GIẢI</h2>
+                  <p class="important_2">CÂU 1: Dao động tắt dần</p>
+                      <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: C</b></p>
+                  <p class="important_2">CÂU 2: Nguyên nhân gây ra dao động tắt dần của con lắc đơn trong không khí là do</p>
+                       <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: C</b></p>
+                  <p class="important_2">CÂU 3: Phát biểu nào sau đây là <b style="color: red">sai</b> khi nói về dao động tắt dần</p>
+                        <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: C</b></p>
+                   <p class="important_2">CÂU 4: Nhận xét nào sau đây là <b style="color:red">không</b> đúng?</p>
+                          <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: D</b></p>
+                  <h1 class="heading_1">BÀI 4</h1>
+                  <p class="important_2">CÂU 1: Sóng cơ là</p>
+                  <div class="flex-item">
+                    <p class="normal_3">A. Dao động lan truyền trong một môi trường</p>
+                    <p class="normal_3">B. Dao động của mọi điểm trong một môi trường</p>
+                    <p class="normal_3">C. một dạng chuyển động đặc biệt của môi trường</p>
+                    <p class="normal_3">D. Biên độ của dao động cưỡng bức không phụ thuộc vào tần số lực cưỡng bức</p>
+                  </div>
+                  <p class="important_2">CÂU 2: Sóng cơ không truyền được trong</p>
+                     <div class="flex-item">
+                          <p class="normal_3">A. Chân không</p>
+                         <p class="normal_3">B. Không khí</p>
+                          <p class="normal_3">C. Nước</p>
+                          <p class="normal_3">D. Kim loại</p>
+                      </div>
+                      <p class="important_2">CÂU 3: Sóng ngang không truyền được trong các chất</p>
+                      <div class="flex-item">
+                           <p class="normal_3">A. rắn, lỏng, khí</p>
+                          <p class="normal_3">B. rắn và khí</p>
+                           <p class="normal_3">C. rắn và lỏng</p>
+                           <p class="normal_3">D. lỏng và khí</p>
+                       </div>  
+                       <p class="important_2">CÂU 4: Sóng dọc truyền được trong tất cả các chất</p> 
+                       <div class="flex-item">
+                        <p class="normal_3">A. rắn, lỏng, khí</p>
+                       <p class="normal_3">B. rắn và khí</p>
+                        <p class="normal_3">C. rắn và lỏng</p>
+                        <p class="normal_3">D. lỏng và khí</p>
+                    </div> 
+                    <p class="important_2">CÂU 5: Quá trình truyền sóng là</p> 
+                    <div class="flex-item">
+                     <p class="normal_3">A. Quá trình truyền pha dao động</p>
+                    <p class="normal_3">B. Quá trình truyền năng lượng</p>
+                     <p class="normal_3">C. Quá trình truyền phần tử vật chất</p>
+                     <p class="normal_3">D. Cả A và B</p>
+                 </div>   
+                 <h2 class="heading_2" style="display: flex; justify-content: center;">HƯỚNG DẪN GIẢI</h2>
+                 <p class="important_2">CÂU 1: Sóng cơ là</p>
+                 <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: D</b></p>
+                 <p class="important_2">CÂU 2: Sóng cơ không truyền được trong</p>
+                 <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b></p>
+                 <p class="important_2">CÂU 3: Sóng ngang không truyền được trong các chất</p>
+                 <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: B</b></p>
+                 <p class="important_2">CÂU 4: Sóng dọc truyền được trong tất cả các chất</p> 
+                 <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: A</b></p>
+                 <p class="important_2">CÂU 5: Quá trình truyền sóng là</p>
+                 <p><b style="color: rgb(225, 16, 51); font-size: 30px;">=> ĐÁP ÁN: D</b></p>
+                <div stye="font-size: 30px; margin-top: 25px;">
+          <p style="color: magenta; font-size: 28px; font-weight: bold;">NẾU CÓ THẮC MẮC GÌ VỀ NỘI DUNG HOẶC LAYOUT CỦA WEBSITE CHÚNG MÌNH, VUI LÒNG LIÊN HỆ:</p>
+          <p class="important_1">NGUYỄN THÁI DƯƠNG</p>
+          <b>- SĐT: 0344818329 (0329231207)</b>
+          <b>- EMAIL: nguyenthaiduong23122007@gmail.com</b>
+        </div>
     </div>
 </body>
-</html>
+</html> 
